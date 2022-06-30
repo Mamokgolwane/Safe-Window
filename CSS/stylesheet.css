@@ -1,7 +1,17 @@
 body{
-  font-family: sans-serif;
+  font-family:Franklin Gothic Medium;
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color: #205024f6;
+}
+
+#heading{
+    background-color:rgb(83, 60, 29);
+    color:white;
+}
+#sidebar{
+    color:white;
+    background-color: rgb(61, 100, 58);
+    width: 200px;
 }
 
 header {
@@ -10,6 +20,16 @@ header {
 }
 
 footer {
-  background-color: #343330;
+    color:white;
+  background-color:rgb(83, 60, 29);
   text-align: center;
+}
+h3{
+    color:white;
+    text-align: center;
+    background-color: rgb(83, 60, 29);
+
+}
+article{
+    background-color: rgb(227, 240, 226);
 }
