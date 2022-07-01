@@ -1,35 +1,52 @@
 body{
   font-family:Franklin Gothic Medium;
   font-size:110%;
-  background-color: #205024f6;
+  background-color: #fffffff6;
 }
 
 #heading{
     background-color:rgb(83, 60, 29);
     color:white;
-}
-#sidebar{
-    color:white;
-    background-color: rgb(61, 100, 58);
-    width: 200px;
+    padding: 5px;
 }
 
+#image{
+  border: 3px solid rgb(235, 103, 15);
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+  margin-top:10px;
+  
+
+}
+
+aside{
+  background-color: rgb(235, 103, 15);
+  padding: 1px 10px 1px 10px;
+  width: fit-content;
+
+}
+#menu {
+  list-style-type: none;
+}
 header {
   text-align: center;
 
 }
 
-footer {
-    color:white;
-  background-color:rgb(83, 60, 29);
-  text-align: center;
-}
+
 h3{
     color:white;
     text-align: center;
     background-color: rgb(83, 60, 29);
 
 }
-article{
-    background-color: rgb(227, 240, 226);
+
+
+
+footer {
+  color:white;
+background-color:rgb(83, 60, 29);
+text-align: center;
+padding: 5px 5px 20px 5px;
 }
