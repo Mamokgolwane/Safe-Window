@@ -1,52 +1,65 @@
 body{
-  font-family:Franklin Gothic Medium;
+  font-family:Franklin Gothic;
   font-size:110%;
   background-color: #fffffff6;
 }
 
 #heading{
+    text-align: center;
     background-color:rgb(83, 60, 29);
     color:white;
-    padding: 5px;
+    padding: 10px ;
 }
 
 #image{
-  border: 3px solid rgb(235, 103, 15);
   border-radius: 50%;
-  width:100px;
-  height:100px;
-  margin-top:10px;
-  
+  width:140px;
+  height:140px;
+}
 
+#menu {
+  list-style-type: none;
+  color: white;
+}
+
+li a{
+  text-decoration: none;
+}
+
+li a:hover{
+  color:white;
+}
+
+.headings{
+    color:white;
+    text-align: center;
+    background-color: rgb(83, 60, 29);
+}
+
+#main {
+  display:flex;
 }
 
 aside{
   background-color: rgb(235, 103, 15);
-  padding: 1px 10px 1px 10px;
+  padding: 1px 5px 1px 5px;
   width: fit-content;
-
-}
-#menu {
-  list-style-type: none;
-}
-header {
-  text-align: center;
-
+  flex:1;
 }
 
-
-h3{
-    color:white;
-    text-align: center;
-    background-color: rgb(83, 60, 29);
-
+section{
+  padding: 5px;
+  flex:2;
 }
-
-
 
 footer {
   color:white;
 background-color:rgb(83, 60, 29);
 text-align: center;
 padding: 5px 5px 20px 5px;
+}
+
+#codespace{
+  text-decoration: none;
+
 }
