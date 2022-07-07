@@ -1,2 +1,2 @@
 # Safe-Window
-Contains code for my digital Resume.
+Contains my CodeSpace challenges or projects.
