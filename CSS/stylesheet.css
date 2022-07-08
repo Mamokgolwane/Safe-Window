@@ -1,65 +1,104 @@
 body{
-  font-family:Franklin Gothic;
-  font-size:110%;
-  background-color: #fffffff6;
+  font-family: georgia, serif;
+  
+  
 }
 
 #heading{
-    text-align: center;
-    background-color:rgb(83, 60, 29);
-    color:white;
-    padding: 10px ;
+  color:white;
+  background-color:rgb(44, 66, 16);
+  text-align: center;
+  padding:1px;
+  position:relative;
+}
+#address{
+  position:absolute;
+  right:2px;
+  bottom:2px;
+  font-size:14px;
+
 }
 
-#image{
-  border-radius: 50%;
-  width:140px;
-  height:140px;
+#picture{
+  margin-top:10px;
+  width: 120px;
+  height:120px;
+  border-radius:50%;
+  outline: 3px solid rgb(112, 83, 38);
 }
 
-#menu {
-  list-style-type: none;
-  color: white;
+#container{
+  display: flex;
+}
+
+#menu{
+  color:white;
+  background-color: rgb(112, 83, 38);
+  padding-right:10px;
+  flex:1;   
+}
+
+.hover:hover{
+  color:white;
+     
 }
 
 li a{
-  text-decoration: none;
+  color:blue;
+  text-decoration:none;
+  font-size:19px;
 }
 
-li a:hover{
-  color:white;
+#list1{
+  list-style: none outside;
 }
 
-.headings{
-    color:white;
-    text-align: center;
-    background-color: rgb(83, 60, 29);
-}
-
-#main {
-  display:flex;
-}
-
-aside{
-  background-color: rgb(235, 103, 15);
-  padding: 1px 5px 1px 5px;
-  width: fit-content;
-  flex:1;
-}
-
-section{
-  padding: 5px;
+#maincontent{
   flex:2;
 }
 
-footer {
+h3{
   color:white;
-background-color:rgb(83, 60, 29);
-text-align: center;
-padding: 5px 5px 20px 5px;
+  text-align: center;
+  background-color: rgb(112, 83, 38);
+  width:100%;
+  padding:3px;
+}
+#education a{
+  color:blue;
+  text-decoration: none;
 }
 
-#codespace{
-  text-decoration: none;
+#education a:hover{
+  font-size:18px;
+}
 
+#education, #experience, #skills{
+  padding:5px;
+}
+
+h4{
+  padding-left:5px;
+}
+
+
+#footer{
+  color:white;
+  background-color:rgb(44, 66, 16);
+  text-align: right;
+  font-size:14px;
+  padding-right:10px;
+  padding-top:2px;
+  
+
+}
+
+#gmail:hover{
+  width:25px;
+  height:25px;
+}
+
+#linkedin:hover{
+  width:25px;
+  height:25px;
 }
