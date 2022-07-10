@@ -38,7 +38,7 @@ body{
 #menu{
   background-color: rgb(112, 83, 38);
   padding-right:10px;
-  flex:1;   
+ width: 200px;   
 }
 
 .hover:hover{
@@ -55,9 +55,12 @@ li a{
 #list1{
   list-style: none outside;
 }
+#list1 h2{
+  font-size:38px;
+}
 
 #maincontent{
-  flex:2;
+  width:100%;
 }
 
 span{
@@ -77,12 +80,12 @@ h2{
   color:blue;
   text-decoration: none;
 }
-
-#education a:hover{
-  font-size:18px;
+#codespace:hover{
+  color:black;
+  text-decoration-line: underline;
 }
 
-#honors a:hover{
+#education a:hover{
   font-size:18px;
 }
 
@@ -124,5 +127,5 @@ h3{
 }
 
 footer img{
-  margin-right: 15px;
+  margin-right: 10px;
 }
