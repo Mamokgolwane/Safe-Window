@@ -1,0 +1,65 @@
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  header {
+    background: purple;
+    height: 100px;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+  article {
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+  }
+
+  #section1{
+    display:flex; /*default direction of the flex items is a row*/
+    /* flex-direction: column; main axis direction is a coolmn form*/
+  }
+  .a1{
+    flex: 1200px; /*flex:1 all the a1 items will take up equal space*/
+  }
+  .a1:nth-child(3){
+    flex:2400px; /*the 3rd article will take up 3 times the space that the otehr two take up*/
+  }
+  
+  #section2{
+    /*flex-wrap:wrap; makes multiple lines to accomodate the items*/
+   /* flex-direction: row-reverse; they start from the opposite corner of the browser and flow in reverse*/
+    flex-flow:row wrap;
+}
+  #section2 article{
+    width:200px; 
+
+  }
+  div {
+    border: 1px solid black;
+    height: 200px;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+  }
+
+#b1{
+    order: 1;
+}
+.b1 {
+    order:-1;
+}
+
+
+ 
+
+  

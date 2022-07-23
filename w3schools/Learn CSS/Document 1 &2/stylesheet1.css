@@ -1,0 +1,96 @@
+#header1 {
+    
+    background-image: url("Images/356ea190-6f52-4a22-84f9-7a6929a9a8c6.jpg");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    background-clip:border-box;
+    background-origin: padding-box;
+    background-position: right;
+    padding:20px;
+    margin-left:5px;
+    padding:10px;
+    border: 5px dotted black;
+
+}
+
+#header2 {
+    background-color: rgb(255, 0, 0, 0.5);
+    background-clip: padding-box;
+    width:200px;
+    margin-left:5px;
+    padding:10px;
+    border: 2px dotted black;
+    box-sizing: border-box;
+}
+
+#header3 {
+    background-color: rgb(255, 0, 0, 0.5);
+    background-clip:border-box;
+    width:200px;
+    margin-left:5px;
+    padding:10px;
+    box-sizing: border-box;
+    border: 2px dotted black;
+    outline-style: solid;
+    outline-color:blueviolet;
+    outline-width: 10px;
+    outline-offset:5px;
+    margin:auto;
+}
+
+body{
+
+    font-family: georgia;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-attachment:fixed;
+    margin-left:2px;
+    max-width:500px;
+
+}
+#para1 {
+    border-style:solid;
+    border-width: 4px 10px 8px 20px;
+    border-color:red blue green;
+}
+#para2{
+    border-style: solid dotted dashed none;
+    border-width: 2px;
+}
+#para3{
+    border-top-style: dotted;
+    border-bottom: 10px solid red;
+}
+#para4{
+    text-align-last:right;
+}
+#para5{
+    direction:rtl;
+    unicode-bidi: bidi-override;
+}
+.imi {
+    vertical-align:sub;
+
+}
+#para6{
+    text-transform: capitalize;
+    text-indent:50px;
+    line-height:1.5;
+}
+#para7{
+    text-decoration: line-through red 10px dashed;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+#shadow{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black, 0 0 5px darkblue, 0 0 25px blue;
+}
+#para8{
+font-variant: small-caps;
+}

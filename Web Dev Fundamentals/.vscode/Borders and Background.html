@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Borders and Background</title>
+
+        <style>
+        body{
+            background-color: rgb(199, 153, 209);
+        }
+        h1{
+            text-align: center;
+            border-radius: 10px;
+            border: 10px solid rgb(70, 11, 67)
+        }
+        .borders {
+            text-align: justify;
+            margin: 3px 3px 3px 3px;
+            padding: 5px 5px 5px 5px;
+            border: 3px dashed hsl(300, 82%, 25%);
+
+        }
+        .borders strong{
+            color: rgb(255, 254, 255);
+        }
+        .outlier{
+            text-align: center;
+            padding: 5px 5px 5px 5px;
+            border: 5px solid rgb(66, 22, 66);
+            border-radius: 0px 40px 0px 40px;/*usually 1 value for all corners*/
+        }
+        .outlier strong{
+            color: rgb(255, 254, 255);
+        }
+        .background {
+            background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+            background-repeat: repeat-x;
+            background-size: contain;
+            border-radius: 5px;
+        }
+        .list{
+            background-image: url("https://sololearnassets.azureedge.net/sl-logo.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            
+
+        }
+
+
+        </style>
+    </head>
+
+<body>
+    <header>
+        <h1>Practising borders and backgrounds</h1>
+    </header>
+    <main>
+        <h3>Borders</h3>
+       <p class="borders"> What I learnt from this lesson was that around elements exists an invisible box.
+        This box contains that particular of the page etc and then it has a <strong>border</strong>. 
+        Between the content box and the border is the sapce called <strong>padding</strong>.
+         After the border,
+         is white space that separates the whole box from the rest of the other elemets. The space is called the <strong>margin</strong>.
+        The borders can be:
+
+         <ul class="list">
+            <li>dotted</li>
+            <li>solid</li>
+            <li>double</li>
+            <li>groove</li>
+            <li>ridge</li>
+            <li>inset</li>
+            <li>outset</li>
+         </ul>
+        
+    
+
+         <p class="outlier">Did you know that you can also round the corners of the border by using the <strong>border radius</strong> property? Well, now you do.
+        </p>
+
+         <h3>Background</h3><!--images or color-->
+         <p class="background"> Another property that I learn about is the background. This can be <strong>background color
+             or an image</strong>. If its an image, it can be repeated or tiled, it has to have a position,
+              and it must also be correctly sized to fit in or over the box.
+
+         </p>
+    </main>
+</body>
+</html>

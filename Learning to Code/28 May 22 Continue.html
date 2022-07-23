@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Continue</h1>
+
+        <script>
+            //instructs JS to end the statement or loop
+            for (nn=10; nn<20; nn++) {
+            if (nn==11) // we are aying skip where i is equal to 11
+            continue;
+             
+        document.write(nn +"<br/>");
+    }
+
+    for(x=3; x<=10; x++){
+        if(x==9) // we are saying skip where i is equal to 9
+        continue;
+        document.write(x + "<br>");
+    }
+    var dateAge = "age";
+    for (x=18; x<=25; x++) {
+        if(x==20) //if means break in this statement
+        continue;
+        document.write(dateAge + " ",x,"<br>")
+    }
+    // read as : # print ages from 18 until 25
+    //           #skip the age of 20 then contnue to print.
+    
+    var time = "Hour";
+    for (x=1; x<=4; x++) {
+        if(x==3) //skip where x is 3
+        continue;
+        document.write(time + " ",x,"<br>")
+    }
+        </script>
+    </body>
+
+</html>

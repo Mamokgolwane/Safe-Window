@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Basic Details </title>
+<style>
+    h1 {
+        text-align: center;
+    }
+body{
+    border: 2px solid black;
+    padding:3px;
+    
+}
+
+
+input {
+    border: 2px solid rgb(29, 75, 29);
+    padding: 2px;
+    margin: 2px;
+    font-weight: bold;
+}
+select{
+    border: 2px solid rgb(29, 75, 29);
+    font-weight: bold;
+}
+button {
+    background-color:rgb(117, 199, 117);
+    font-weight: bold;
+    border:none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color:white;
+    
+}
+
+button:hover{
+    background-color: rgb(17, 53, 12);
+}
+
+label{
+    font-weight: bold;
+    color: rgb(29, 75, 29);
+}
+
+p{
+    font-weight: bold;
+}
+
+input[type="button"] {
+    background-color:rgb(117, 199, 117);
+    padding:10px 20px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+}
+input[type="button"]:hover{
+    background-color: rgb(17, 53, 12);
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+    <header>
+<h1>Fill in your basic details:</h1>
+    </header>
+
+    <main> 
+        <form>
+        <label for="title">Title:</label>
+        <select id="title">
+            <option>Ms</option>
+            <option>Miss</option>
+            <option>Mx</option>
+            <option>Mrs</option>
+            <option>Mr</option>
+        </select><br><br>
+        <label for="name">Name(s):</label>
+        <input type="text" id="name" placeholder="Anthony"><br><br>
+
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" placeholder="Langley"><br><br>
+
+        <label for="nickname">Nickname:</label>
+        <input type="numbers" id="nickname" placeholder="Tony"><br><br>
+
+        <label for="age">Age:</label>
+        <input type="text" id="age" placeholder="18"><br><br>
+
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob"><br><br>
+
+        <p>SA Nationality:<br>
+        <input type="radio" id="yes" name="choose1">
+        <label for="yes">Yes</label><br><br>
+        
+        <input type="radio" id="no" name="choose1">
+        <label for="yes">No</label></p>
+         
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="text" id="hobbies" placeholder="reading"><br><br>
+
+        <label for="emails">Email:</label>
+        <input type="email" id="emails" placeholder="anthonyl@yahoo.com"><br><br>
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Hout Bay"><br><br>
+
+    
+        <button>Submit Application</button> <input type="button" value="Reset">
+
+
+
+
+
+    </form>
+
+        
+
+    </main>
+
+    <footer>
+        &copy;Copyright.
+
+    </footer>
+</body>
+
+</html>

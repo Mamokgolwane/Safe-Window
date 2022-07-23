@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html> 
+    <body>
+        <h1>Conditionals</h1>
+        
+        <script>
+        /*these are statements used to execute a block of code if a certain condition is met (CONDITIONS REQUIRED TO RUN A STATEMENT)
+
+    the if* statement - evaluates to see if condition is made met(TRUE)*/
+
+        var x = 10;
+        var y= 15;
+    if (y<x) { // true for 1st instance  / false for 2nd instance
+        document.write("Dorah is smart!") // therefore executed for 1st instance
+    }
+        document.write("I lied to you!" + "<br>") // 2nd instance / <br> is just to keep to keep every code on its own line
+        
+        var month = "August";
+    if (month == "August") {
+        document.write("Vacation" + "<br>");
+    }
+    //the else* statement - offers alt. code to be executed if the condition evaluates to FALSE
+    
+        var xx = 20;
+        var yy = 30;
+    if (yy<xx) { // false there the code associated with else is executed
+        document.write("I love my mom, Sannah.");
+    }
+    else{
+        document.write("Sanna is her name." + "<br>");// this is executed
+    }
+    //else if* statement - offers another condition that must evaluate to TRUE
+
+        var score = 100;
+    if (score >=90 ) {  // > 90 (90 and above)
+        document.write("Distinction. Congrats!" + "<br>");
+    }
+    else if ((score >=80) && (score<90/* or >=89*/)) { // ranges between 80-89
+        document.write("You passed very well. Keep it up")
+    }
+    else{ // anything < 80
+        document.write("You have potential. Keep going")
+    }
+    
+    //switch* statement - switching bwteween possibilities to find an equal match;
+
+    var gradeSymbol = "E";
+    switch (gradeSymbol) {
+        case "A":
+            document.write("Top Achiever");
+            break;
+        case "B":
+            document.write("Achiever");
+            break;
+        case "C":
+            document.write("Good Performer");
+            break;
+        case "D":
+            document.write("Can do better");
+            break;
+        default:
+            document.write("Pull your socks up. ");
+
+    }
+        document.write("Please <br>") //optional or if stated that you must do it
+
+        var roomNum = '3'; //FIND THIS SPECIFIC VALUE OF THIS VARIABLE
+        switch (roomNum) {
+            case '1':
+                document.write('Nthabiseng Mahlako');
+                break; // break the switch
+            case '2':
+                document.write('Precious Moloi');
+                break;
+            case '3':
+                document.write('Ntate Uchechukwu Ohiara')
+                break;
+            default:// if you can't find any room assigned that exists then run a default
+                document.write('The room number does not exist. Try again');
+            }
+        </script>
+    </body>
+</html>
